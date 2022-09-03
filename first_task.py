@@ -2,9 +2,9 @@
 
 day_week=int(input("Введи цифру, обозначающую день недели: "))
 
-if day_week in range (1,5):
+if day_week in range (1,6):
     print("Рабочий день")
-elif day_week in range (6,7):
+elif day_week in range (6,8):
     print("Выходной день")
 elif day_week < 0 or day_week > 7:
     print("Введи корректную цифру (от 1 до 7)") 
